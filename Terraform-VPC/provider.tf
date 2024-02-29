@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-        bucket = "cicd-terraform-vpc"
+        bucket = "shivay-jenkins"
         key    = "dev/terraform.tfstate"
         region = "ap-south-1"
   }
